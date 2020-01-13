@@ -7,81 +7,81 @@
     tools:context=".MainActivity">
 
     <ImageButton
+        android:id="@+id/btn_ChooseBoarding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.315"
+        app:srcCompat="@drawable/boardingico" />
+
+    <ImageButton
         android:id="@+id/btn_ChooseTransport"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="140dp"
+        android:background="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.148"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.108"
-        tools:srcCompat="@tools:sample/avatars[3]" />
+        app:layout_constraintVertical_bias="0.315"
+        app:srcCompat="@drawable/transportico" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btn_ChooseFood"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
+        android:background="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.148"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.321"
-        tools:srcCompat="@tools:sample/avatars[2]" />
+        app:layout_constraintVertical_bias="0.599"
+        app:srcCompat="@drawable/foodico" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/btn_ChooseMedicine"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintHorizontal_bias="0.868"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.636"
-        tools:srcCompat="@tools:sample/avatars[13]" />
+        app:layout_constraintVertical_bias="0.599"
+        app:srcCompat="@drawable/medico" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/btn_ChooseSightsee"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintHorizontal_bias="0.148"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.636"
-        tools:srcCompat="@tools:sample/avatars[6]" />
+        app:layout_constraintVertical_bias="0.901"
+        app:srcCompat="@drawable/sightseeingico" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/btn_ChooseShopping"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintHorizontal_bias="0.868"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.945"
-        tools:src="@tools:sample/avatars[11]"
-        tools:srcCompat="@tools:sample/avatars[11]" />
-
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.915"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.945"
-        tools:srcCompat="@tools:sample/avatars[9]" />
+        app:layout_constraintVertical_bias="0.9"
+        app:srcCompat="@drawable/shoppingico" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
