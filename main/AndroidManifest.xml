@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FoodTalksThree"></activity>
+        <activity android:name=".FoodTalksTwo" />
+        <activity android:name=".FoodTalksOne" />
+        <activity android:name=".BoardingTalksThree" />
+        <activity android:name=".BoardingTalksTwo" />
+        <activity android:name=".BoardingTalksOne" />
+        <activity android:name=".SightseeTalksThree" />
+        <activity android:name=".SightseeTalksTwo" />
+        <activity android:name=".SightseeTalksOne" />
+        <activity android:name=".MedicTalksThree" />
+        <activity android:name=".MedicTalksTwo" />
+        <activity android:name=".MedicTalksOne" />
+        <activity android:name=".ShoppingTalksThree" />
+        <activity android:name=".ShoppingTalksTwo" />
+        <activity android:name=".ShoppingTalksOne" />
+        <activity android:name=".TransportTalksThree" />
+        <activity android:name=".TransportTalksPartTwo" />
+        <activity android:name=".TransportTalks" />
+        <activity android:name=".BoardingChosen" />
+        <activity android:name=".FoodChosen" />
+        <activity android:name=".SightseeChosen" />
+        <activity android:name=".ShoppingChosen" />
+        <activity android:name=".MedicChosen" />
+        <activity android:name=".CategoryChosen1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
